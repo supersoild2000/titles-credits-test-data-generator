@@ -1,8 +1,32 @@
 .App {
   text-align: center;
-  margin: 32px;
+  margin: 32px 48px;
   font-family: monospace;
   font-size: 32px;
   font-weight: bold;
   color: azure;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.generate-data-button {
+  background-color: #373d48;
+  color: aliceblue;
+  border: none;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 2em;
+  border-radius: 1em;
+  &:hover {
+    background-color: #434a56;
+  }
+
+  &:active {
+    background-color: #4e5565;
+  }
+
+  transition: background-color 300ms;
 }
